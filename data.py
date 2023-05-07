@@ -111,5 +111,5 @@ if __name__ == "__main__":
     create_dir(os.path.join(data_path, "new_data/test/image"))
     create_dir(os.path.join(data_path, "new_data/test/mask"))
 
-    augment_data(train_x, train_y, os.path.join(data_path, "new_data/train/"), augment=False)
+    augment_data(train_x, train_y, os.path.join(data_path, "new_data/train/"), augment=True)
     augment_data(test_x, test_y, os.path.join(data_path, "new_data/test/"), augment=False)
